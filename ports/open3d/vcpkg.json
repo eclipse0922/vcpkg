@@ -5,6 +5,7 @@
   "homepage": "www.open3d.org",
   "dependencies": [
     "assimp",
+    "curl",
     "eigen3",
     "flann",
     "fmt",
