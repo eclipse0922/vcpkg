@@ -6,6 +6,8 @@ vcpkg_from_github(
     REF 1651573c08cac3fc01004d68bc197f751d4a2235
     SHA512 95de018f0d6364e114a8608358d1141ca0116dc18b854a1fab858b5069ded913054d0caa57018ea026eee5363e0261f0c2729b494a74ab9ef66ccd6c473ae44c
     HEAD_REF master
+    PATCHES
+        disable_tools_gui.patch
 )
 
 string(COMPARE EQUAL "${VCPKG_CRT_LINKAGE}" "static" STATIC_WINDOWS_RUNTIME)
